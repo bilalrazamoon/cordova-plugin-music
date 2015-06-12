@@ -15,13 +15,13 @@ This plugin provides the ability to retrieve songs list, playlist, songs from pl
 
 - [`window.cordova.plugins.Music.getSongs`](#windowcordovapluginsmusicgetsongs): Returns the list of songs.
 
-- `window.cordova.plugins.Music.getPlaylists`: Returns the list of playlists.
+- [`window.cordova.plugins.Music.getPlaylists`](#windowcordovapluginsmusicgetplaylists): Returns the list of playlists.
 
-- `window.cordova.plugins.Music.getSongsFromPlaylist`: Returns the list of songs from playlist.
+- [`window.cordova.plugins.Music.getSongsFromPlaylist`](#windowcordovapluginsmusicgetsongsfromplaylist): Returns the list of songs from playlist.
 
-- `window.cordova.plugins.Music.playSong`: Play song by song id.
+- [`window.cordova.plugins.Music.playSong`](#windowcordovapluginsmusicplaysong): Play song by song id.
 
-- `window.cordova.plugins.Music.stopSong`: Stop song.
+- [`window.cordova.plugins.Music.stopSong`](#windowcordovapluginsmusicstopsong): Stop song.
 
 ## window.cordova.plugins.Music.getSongs
 
