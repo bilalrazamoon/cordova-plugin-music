@@ -1,0 +1,10 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-icon-right" ng-repeat="p in playlists" ui-sref="tab.playlists-detail({id:p.id})">
+        <h2>{{p.name}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

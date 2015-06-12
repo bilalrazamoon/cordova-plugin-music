@@ -1,0 +1,11 @@
+<ion-view view-title="Songs">
+  <ion-content overflow-scroll="true">
+    <ion-list>
+      <ion-item class="item-icon-right" ng-repeat="s in songs" ng-class="{'active':s.playing}" type="item-text-wrap" ng-click="play(s)">
+        <h2>{{s.name}}</h2>
+        <p>{{s.artist}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
