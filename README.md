@@ -75,7 +75,7 @@ Returns the list of playlist.
 
 Play song by songId and Call onComplete callback.
 
-    window.cordova.plugins.Music.getSongsFromPlaylist(
+    window.cordova.plugins.Music.playSong(
         //id of song
         songId,
         // onComplete callback
@@ -92,7 +92,7 @@ Play song by songId and Call onComplete callback.
 
 Stop song.
 
-    window.cordova.plugins.Music.getSongsFromPlaylist(
+    window.cordova.plugins.Music.stopSong(
         // success callback
         function (msg) {
             console.log("audio stopped");
